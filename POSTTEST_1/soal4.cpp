@@ -21,12 +21,12 @@ int main() {
     int *px = &x;
     int *py = &y;
 
-    cout << "Sebelum pertukaran:" << endl;
+    cout << "sebelum ditukar:" << endl;
     cout << "x = " << x << ", y = " << y << endl;
 
     tukar(&px, &py);
 
-    cout << "Sesudah pertukaran:" << endl;
+    cout << "sesudah ditukar:" << endl;
     cout << "x = " << x << ", y = " << y << endl;
 
     return 0;
