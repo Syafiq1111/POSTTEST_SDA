@@ -32,7 +32,7 @@ int main() {
     for (int i = 0; i < N; i++) {
         totaldiagonalsekunder += matriks[i][N - 1 - i];
     }
-
+    // hasil
     cout << "total dari diagonal utama = " << totaldiagonalutama << endl;
     cout << "total dari diagonal sekunder = " << totaldiagonalsekunder << endl;
     cout << "Total (utama + sekunder) = " << (totaldiagonalutama + totaldiagonalsekunder) << endl;

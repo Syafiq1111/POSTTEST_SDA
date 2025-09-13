@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// fungsi balik array
 void balikArray(int* arr, int n) {
 
     int* awal = arr;
